@@ -6,16 +6,16 @@ const nameCheapURL =
 
 const NameCard = ({ suggestedname }) => {
   return (
-    <a
-      target="_blank"
-      rel="noreferrer"
-      className="card-link"
-      href={`${nameCheapURL}${suggestedname}`}
-    >
-      <div className="result-name-card">
+    <div className="result-name-card">
+      <a
+        target="_blank"
+        rel="noreferrer"
+        className="card-link"
+        href={`${nameCheapURL}${suggestedname}`}
+      >
         <p className="result-name">{suggestedname}</p>
-      </div>
-    </a>
+      </a>
+    </div>
   );
 };
 

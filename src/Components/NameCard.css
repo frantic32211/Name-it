@@ -1,8 +1,7 @@
 .result-name-card {
-    color: #e7e9f0;
     background: #282d4f;
     margin: 15px 20px;
-    max-width: 200px;
+    max-width: 600px;
     padding: 10px 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.1);
@@ -20,5 +19,6 @@
     font-size: 25px;
 }
 .card-link {
+    color: #e7e9f0;
     text-decoration: none;
 }
